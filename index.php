@@ -225,7 +225,7 @@
     </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
+
 <footer class="footer">
     <div class="container footer-grid">
 
