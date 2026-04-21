@@ -243,7 +243,7 @@
     </div>
 
     <p class="copyright">
-        © 2026(Updated) QuickPOS. All rights reserved.
+        © 2026(Updated)QuickPOS. All rights reserved.
     </p>
 </footer>
 
