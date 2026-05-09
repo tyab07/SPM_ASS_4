@@ -13,6 +13,18 @@
 4. Open `http://localhost:8000`
 5. Run tests: `./vendor/bin/phpunit --testdox`
 
+## Project Structure
+quickpos/
+├── index.php
+├── contact.php
+├── thank-you.html
+├── tests/
+├── phpunit.xml
+├── composer.json
+└── .github/
+    └── workflows/
+        └── ci.yml
+
 ## Jira Board
 https://cfd-team-mg6tuva9.atlassian.net/jira/software/projects/HAC/boards/2?sprintStarted=true
 
