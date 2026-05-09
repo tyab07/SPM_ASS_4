@@ -15,3 +15,15 @@
 
 ## Jira Board
 https://cfd-team-mg6tuva9.atlassian.net/jira/software/projects/HAC/boards/2?sprintStarted=true
+
+
+## Branch Protection Rules
+
+The `main` branch is protected with the following rules:
+- Pull request required before merging
+- Minimum 1 approval required
+- All CI checks must pass before merge:
+  - Stage 3 - Code Quality Check
+  - Stage 4 - Automated Tests
+  - Stage 10 - Jira Commit Validation
+- Force pushes are blocked
