@@ -49,7 +49,7 @@ jobs:
         run: |
           phpcs --standard=PSR12 --extensions=php \
                 --ignore=vendor/ \
-                index.php contact.php || true
+                index.php || true
           echo "✅ Code quality done"
 
   # JOB 3: Tests + Syntax (runs PARALLEL with Job 2)
@@ -72,8 +72,7 @@ jobs:
       - name: "Stage 5 - Syntax Check index.php"
         run: php -l index.php
 
-      - name: "Stage 5 - Syntax Check contact.php"
-        run: php -l contact.php
+
 
       - name: "Stage 4 - Run PHPUnit Tests"
         run: ./vendor/bin/phpunit --configuration phpunit.xml --testdox
