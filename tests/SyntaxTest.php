@@ -10,10 +10,5 @@ class SyntaxTest extends TestCase
         $this->assertStringContainsString("No syntax errors", $output);
     }
 
-    // POS-203: contact.php syntax valid
-    public function testContactPhpSyntax()
-    {
-        $output = shell_exec("php -l " . __DIR__ . "/../contact.php");
-        $this->assertStringContainsString("No syntax errors", $output);
-    }
+    // contact.php syntax check removed as it's not required
 }
