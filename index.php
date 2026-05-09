@@ -225,7 +225,7 @@
     </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
+
 <footer class="footer">
     <div class="container footer-grid">
 
@@ -243,7 +243,7 @@
     </div>
 
     <p class="copyright">
-        © 2026 QuickPOS. All rights reserved.
+        © 2026(Updated)QuickPOS. All rights reserved.
     </p>
 </footer>
 
