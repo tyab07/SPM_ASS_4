@@ -23,7 +23,7 @@ jobs:
             MSG="Merge PR"
           fi
           echo "Commit: $MSG"
-          if [[ "$MSG" =~ \[POS-[0-9]+\] ]] || [[ "$MSG" =~ ^Merge ]]; then
+          if [[ "$MSG" =~ \[POS-[0-9]+\] ]] || [[ "$MSG" =~ \[HAC-[0-9]+\] ]] || [[ "$MSG" =~ ^Merge ]]; then
             echo "✅ Valid Jira commit message"
           else
             echo "❌ Missing Jira ID like [POS-101]"
