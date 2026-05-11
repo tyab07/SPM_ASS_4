@@ -10,8 +10,9 @@
 1. `git clone https://github.com/tyab07/SPM_ASS_4`
 2. `composer install`
 3. `php -S localhost:8000`
-4. Open `http://localhost:8000`
-5. Run tests: `./vendor/bin/phpunit --testdox`
+4. 
+5. Open `http://localhost:8000`
+6. Run tests: `./vendor/bin/phpunit --testdox`
 
 ## Project Structure
 quickpos/
